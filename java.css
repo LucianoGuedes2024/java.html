@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box; /*terá explicação*/
+    list-style: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  div img {
+      width: 5rem;
+      height: auto;
+      margin-left: 1rem;
+  }
+  
+  header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem;
+      
+  }
+  
+  header ul {
+      display: flex;
+     
+  }
+  
+  header ul li {
+   margin-left: 30px;
+  }
+  
+  
+  
+  #myVideo {
+    position:static ; /*fixed*/ /*terá explicação*/
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position:absolute; /*terá explicação*/
+    margin-top: -40vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 1vh;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  
+  .sessao1 {
+    display: flex;
+    padding: 10vh;
+    background-color: rgba(0, 255, 255, 0.427);
+    color: black;
+  }
+  
+  .sessao1 div p {
+  text-align: left;
+  margin: 0.5rem;
+  font-weight: 600;
+  }
+  
+  .pai{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    padding: 150px;
+  }
+
+  .div{
+    background-color: rgb(42, 133, 42);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    margin-right: 10px;
+    box-shadow:6px 6px 6px black ;
+    border-radius: 20px;
+
+  }
+
+  .div{
+    background-color: rgb(42, 133, 42);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    margin-right: 10px;
+    box-shadow:6px 6px 6px black ;
+    border-radius: 20px;
+  }
+
+  .div{
+    background-color:  rgb(42, 133, 42);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    margin-right: 10px;
+    box-shadow:6px 6px 6px black ;
+    border-radius: 20px;
+  }
+
+
+  
+   
+
+
