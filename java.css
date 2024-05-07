@@ -109,28 +109,6 @@
 
   .div{
     background-color:  rgb(42, 133, 42);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     width: 150px;
     height: 150px;
     font-size: 30px;
@@ -144,3 +122,29 @@
    
 
 
+.form{
+ padding: 20vh;
+ background-color: aqua;
+ display: flex;
+ 
+}
+
+
+.form1{
+  margin-right: 80px;
+  border-radius: 20px;
+  background-color: blue;
+color: white;
+text-align: center;
+border-radius: 1rem;
+}
+
+form input {
+  border-radius: 0.5rem;
+}
+
+  div button{
+    border-radius: 20px;
+  }
+
+  

@@ -15,10 +15,10 @@ if (video.paused) { //se o vídeo estiver pausado execute: Play.
   }
 }
 
-window.revelar=scrollReveal({Reset:true});
-revelar.reveal('.div'{
+window.revelar=ScrollReveal({Reset:true});
+revelar.reveal('.div',{
 
 duration: 3000,
 distance: '150px'
 
-  });
+})
