@@ -3,6 +3,8 @@
     list-style: none;
   }
   
+
+  
   body {
     margin: 0;
     font-family: Arial;
@@ -20,6 +22,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 1.5rem;
+      background-color: #fdaf8a;
       
   }
   
@@ -31,6 +34,7 @@
   header ul li {
    margin-left: 30px;
   }
+  
   
   
   
@@ -68,7 +72,7 @@
   .sessao1 {
     display: flex;
     padding: 10vh;
-    background-color: rgba(0, 255, 255, 0.427);
+    background-color: #ffe1c9;
     color: black;
   }
   
@@ -84,10 +88,11 @@
     gap:20px;
     justify-content: center;
     padding: 150px;
+    background-color: #fac7b4;
   }
 
   .div{
-    background-color: rgb(42, 133, 42);
+    background-color: #afc7b9;
     width: 150px;
     height: 150px;
     font-size: 30px;
@@ -98,7 +103,7 @@
   }
 
   .div{
-    background-color: rgb(42, 133, 42);
+    background-color:  #afc7b9;
     width: 150px;
     height: 150px;
     font-size: 30px;
@@ -108,7 +113,7 @@
   }
 
   .div{
-    background-color:  rgb(42, 133, 42);
+    background-color:   #afc7b9;
     width: 150px;
     height: 150px;
     font-size: 30px;
@@ -124,7 +129,7 @@
 
 .form{
  padding: 20vh;
- background-color: aqua;
+ background-color:#fca89d;
  display: flex;
  
 }
@@ -133,7 +138,7 @@
 .form1{
   margin-right: 80px;
   border-radius: 20px;
-  background-color: blue;
+  background-color:#b05574;
 color: white;
 text-align: center;
 border-radius: 1rem;
@@ -144,7 +149,48 @@ form input {
 }
 
   div button{
-    border-radius: 20px;
+    border-radius: 20px;margin-top: 10px;
   }
 
+  div button {
+    cursor: pointer;
+  }
+
+  div button:hover{
+    transition: o.5;
+    color: white;
+    background-color: blue;
+  }
+
+
+  footer{
+    padding: 50px;
+    background-color: #998b82;
+    
+  }
+
+  footer nav ul{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  footer nav ul li{
+
+    margin-right: 190px;
+    font-size: 20px;
+      }
+
+    footer nav ul li a{
+   text-decoration: none;
+   color: blue;
+
+    }
+
+    footer nav ul li a:hover{
+      color: black;
+      transition: 0.8;
+    }
+
+  
   
